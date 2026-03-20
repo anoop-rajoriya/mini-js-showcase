@@ -1,7 +1,7 @@
 const projects = [{
     id: "#01",
     icon: "🌗",
-    link: "/01-theme-switcher/index.html",
+    link: "/01-theme-switcher/",
     title: "Theme Switcher",
     description: "Change themes between dark and light (or more) themes using css variables.",
     tags: ["dom"],
@@ -9,7 +9,7 @@ const projects = [{
 }, {
     id: "#02",
     icon: "📦",
-    link: "/02-drag-drop-kanban/index.html",
+    link: "/02-drag-drop-kanban/",
     title: "Drag & Drop Kanban",
     description: "Create new columns for To Do cards. Create or drag & drop cards between them columns.",
     tags: ["dom", "events"],
