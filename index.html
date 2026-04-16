@@ -1,87 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mini JS Projects</title>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini JS Showcase</title>
 </head>
-
 <body>
-  <div id="app">
-    <header>
-      <nav>
-        <a class="nav-logo" href="#"><span>&lt;/&gt;</span> mini-js</a>
-        <ul class="nav-links">
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="https://github.com" target="_blank">GitHub</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section class="hero">
-        <div class="hero-bg-elm">JS</div>
-        <p class="hero-eyebrow">DOM Journey · Vanilla JS</p>
-        <h1>Mini <em>JS</em><br>Showcase</h1>
-        <p class="hero-sub">
-          A growing collection of bite-sized JavaScript experiments built while learning the DOM — no
-          frameworks, no
-          libraries, just pure vanilla JS magic.
-        </p>
-        <div class="hero-stats">
-          <div class="stat">
-            <span class="stat-num" id="totalCount">0</span>
-            <span class="stat-label">Projects</span>
-          </div>
-          <div class="stat">
-            <span class="stat-num">100%</span>
-            <span class="stat-label">Vanilla JS</span>
-          </div>
-          <div class="stat">
-            <span class="stat-num">∞</span>
-            <span class="stat-label">Things Learned</span>
-          </div>
-        </div>
-        <a class="hero-cta" href="#projects">
-          Browse Projects
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-            stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 12h14M12 5l7 7-7 7" />
-          </svg>
-        </a>
-      </section>
-      <section class="projects" id="projects">
-        <div class="section-header">
-          <h2 class="section-title"><span>#</span> All Projects</h2>
-        </div>
-
-        <!-- FILTER PILLS -->
-        <div class="filters">
-          <button class="pill active" data-filter="all">All</button>
-          <button class="pill" data-filter="dom">DOM</button>
-          <button class="pill" data-filter="events">Events</button>
-          <button class="pill" data-filter="api">Fetch / API</button>
-          <button class="pill" data-filter="animation">Animation</button>
-          <button class="pill" data-filter="storage">Storage</button>
-        </div>
-
-        <div class="grid" id="grid">
-
-        </div>
-      </section>
-    </main>
-    <footer>
-      <div>
-        <span class="footer-logo"> &lt;/&gt; mini-js-showcase</span>
-        <p class="footer-note">Built with <span>♥</span> & vanilla JS · No frameworks were harmed.</p>
-      </div>
-    </footer>
-  </div>
-  <script type="module" src="/main.js"></script>
+    <div id="app"></div>
+    <script type="module" src="./src/main.js"></script>
 </body>
-
 </html>
