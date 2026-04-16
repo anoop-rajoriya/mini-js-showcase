@@ -1,14 +1,15 @@
 {
   "name": "mini-js-showcase",
-  "version": "0.0.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "This project contains many vanilla js projects form beginner to advanced level. This help learner to provide a proper guide to learn and implement predefined project without going under the project finding and ui rabbit hole because in learning js learner should focus only into js not ui or project research.",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
+  "author": "Anoop Rajoriya",
   "devDependencies": {
-    "vite": "^8.0.1"
+    "vite": "^8.0.8"
   }
 }
